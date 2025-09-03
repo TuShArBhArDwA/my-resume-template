@@ -24,4 +24,6 @@ docker run --rm -i -v "$PWD":/data latex pdflatex tushar_resume.tex
 
 ### License
 
-Format is MIT but all the data is owned by Tushar Bhardwaj.
+
+This project is licensed under the [MIT License](./LICENSE).  
+All data and datasets are owned by **Tushar Bhardwaj**.
