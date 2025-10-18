@@ -8,7 +8,7 @@ Most currently available templates either focus on two columns, or are multiple 
 
 ### Quick start
 
-Get started quickly using [Overleaf](https://www.overleaf.com/latex/templates/software-engineer-resume/gqxmqsvsbdjf) template.
+Get started quickly using Overleaf template.
 
 ### Build using Docker
 
