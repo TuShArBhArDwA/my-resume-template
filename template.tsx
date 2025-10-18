@@ -13,7 +13,6 @@
     \usepackage{titlesec}
     \usepackage{marvosym}
     \usepackage[usenames,dvipsnames]{color}
-    \usepackage{verbatim}
     \usepackage{enumitem}
     \usepackage[hidelinks]{hyperref}
     \usepackage{fancyhdr}
@@ -118,7 +117,7 @@
     
     
     \begin{document}
-  
+    \small
     %----------HEADING----------
     \begin{center}
     \vspace{-6pt}
@@ -161,11 +160,12 @@
     {Microsoft}{June 2025 -- August 2025}
     {Software Engineer Intern}{Bengaluru}
     \resumeItemListStart
-      \resumeItem{Developed \textbf{ControllerSync}, a Kubernetes custom controller in Golang that applies shard-based consistent hashing to evenly balance custom resources across replicas.}
-      \resumeItem{Engineered automatic shard redistribution and lease-based leader election, achieving \textbf{99.95\% uptime} and significantly reducing reconciliation latency.}
-      \resumeItem{Optimized shard coordination logic, enabling \textbf{2× faster horizontal scaling} and lowering CPU utilization by \textbf{28\%} under peak cluster workloads.}
-      \resumeItem{Strengthened cluster resilience by enabling seamless failover and zero data loss during replica scale-up/down events across clusters with \textbf{500+ nodes}.}
+      \resumeItem{Built \textbf{ControllerSync}, a production-grade Kubernetes controller in \textbf{Golang} using shard-based consistent hashing to distribute and manage \textbf{CustomResourceDefinitions (CRDs)} efficiently across controller replicas.}
+      \resumeItem{Implemented \textbf{lease-based leader election} and automatic shard reassignment, maintaining \textbf{99.95\% system availability} while minimizing reconciliation overhead.}
+      \resumeItem{Redesigned the shard coordination mechanism, achieving \textbf{faster horizontal scalability} and reducing \textbf{CPU utilization by 28\%} under peak workloads.}
+      \resumeItem{Enhanced fault tolerance through replica-aware failover logic, ensuring zero state loss during node restarts and maintaining stability across \textbf{500+ node clusters}.}
     \resumeItemListEnd
+
 
 \resumeSubHeadingListEnd
 \vspace{-16pt}
@@ -174,38 +174,39 @@
     \vspace{-5pt}
     \resumeSubHeadingListStart
      \resumeProjectHeading
-      {\textbf{Spotlight - AI-Powered Webinar \& Sales Platform} $|$ \footnotesize\emph{{Next.js, Node.js, Vapi AI, Pinecone, OBS, PostgreSQL}}}{{{{\href{https://github.com/TuShArBhArDwA/Spotlight}{\faGithub\ \textcolor{blue}{\textbf{GitHub}}}}}}}
-\resumeItemListStart
-  \resumeItem{Increased lead conversion rate by 45\% by deploying AI-powered sales agents in breakout rooms, enabling automated voice interactions and instant call-to-action execution.}
-  \resumeItem{Boosted attendee engagement by 50\% through real-time CTAs, product pop-ups, and personalized lead funnels integrated into webinar streams.}
-  \resumeItem{Accelerated sales cycle tracking by 60\% with an adaptive lead pipeline, automated follow-ups, and AI-assisted status progression, while ensuring secure multi-role access via Clerk.}
-  \resumeItem{Reduced streaming latency by 35\% via OBS/WebRTC integration and optimized session management using the Stream SDK.}
-\resumeItemListEnd
-\vspace{-13pt}
+  {\textbf{Spotlight – AI-Powered Webinar \& Sales Platform} $|$ \footnotesize\emph{{Next.js, Node.js, Vapi AI, Pinecone, OBS, PostgreSQL}}}
+  {{\href{https://github.com/TuShArBhArDwA/Spotlight}{\faGithub\ \textcolor{blue}{\textbf{GitHub}}}}}
+  \resumeItemListStart
+    \resumeItem{Increased lead conversion by \textbf{15\%} through deployment of AI-based sales agents in breakout rooms, enabling voice-driven interactions and instant call-to-action execution.}
+    \resumeItem{Enhanced attendee engagement by \textbf{20\%} via real-time CTAs, product pop-ups, and personalized lead funnels integrated into webinar sessions.}
+    \resumeItem{Improved sales tracking efficiency by \textbf{30\%} using an adaptive lead pipeline with intelligent follow-ups and AI-assisted status progression, ensuring secure role-based access via \textbf{Clerk}.}
+    \resumeItem{Reduced streaming latency by \textbf{25\%} through optimized \textbf{OBS/WebRTC integration} and session management with the Stream SDK.}
+  \resumeItemListEnd
+  \vspace{-13pt}
 
-           \resumeProjectHeading
-          {\textbf{Hire Me - Full Stack Job Portal} $|$ \footnotesize\emph{{MongoDB, Express.js, React, Node.js, Clerk, Sentry}}}
-            {{{{\href{https://github.com/TuShArBhArDwA/HireMe}{\faGithub\ \textcolor{blue}{\textbf{GitHub}}}}}}}
-          \resumeItemListStart
-            \resumeItem{Transformed job seeker experience, increasing user engagement by 40\% through seamless job search, resume uploads, and application tracking.}
-            \resumeItem{Boosted hiring efficiency by 35\% by implementing recruiter dashboards for job posting, application management, and candidate evaluation, streamlining the recruitment process.}
-            \resumeItem{Revamped system performance, reducing database response times by 30\% through leveraged MongoDB queries using Sentry, ensuring faster and smoother user interactions.}
-          \resumeItemListEnd
-          
-          \vspace{-13pt}
+\resumeProjectHeading
+  {\textbf{PulseAI Prep – AI-Powered Interview Assistant} $|$ \footnotesize\emph{{Next.js, TypeScript, Gemini API, Firebase, VAPI}}}
+  {{\href{https://github.com/TuShArBhArDwA/PulseAI}{\faGithub\ \textcolor{blue}{\textbf{GitHub}}}}}
+  \resumeItemListStart
+    \resumeItem{Developed an AI-powered mock interview platform supporting real-time voice interviews, improving preparation experience for over \textbf{100 users}.}
+    \resumeItem{Integrated the \textbf{Gemini API} for adaptive question generation and automated scoring across communication, technical, and analytical dimensions.}
+    \resumeItem{Implemented secure authentication and data analytics using \textbf{Firebase Auth} and Firestore, achieving \textbf{99.9\% uptime} and reliable user performance tracking.}
+    \resumeItem{Reduced response latency by \textbf{35\%} via optimized streaming through \textbf{VAPI}, enhancing conversational realism in AI-led sessions.}
+  \resumeItemListEnd
+  \vspace{-13pt}
 
-    \resumeProjectHeading
-          {\textbf{Snappy - Realtime Chat Application} $|$ \footnotesize\emph{{React, MongoDB, Express.js, Socket.io, Node.js}}}
-          {{{{\href{https://github.com/TuShArBhArDwA/Snappy}{\faGithub\ \textcolor{blue}{\textbf{GitHub}}}}}}}
-          \resumeItemListStart
-            \resumeItem{Achieved 99.9\% uptime, ensuring seamless real-time communication with minimal latency, enhancing user experience and engagement.}
-            \resumeItem{Optimized WebSocket connections, reducing server load by 40\%, leading to improved scalability and performance.}
-          \resumeItemListEnd 
-    
-    
-     
-    
-    \resumeSubHeadingListEnd
+\resumeProjectHeading
+  {\textbf{Hire Me – Full Stack Job Portal} $|$ \footnotesize\emph{{MongoDB, Express.js, React, Node.js, Clerk, Sentry}}}
+  {{\href{https://github.com/TuShArBhArDwA/HireMe}{\faGithub\ \textcolor{blue}{\textbf{GitHub}}}}}
+  \resumeItemListStart
+    \resumeItem{Built a full-stack job portal enhancing candidate experience by \textbf{30\%} through seamless job discovery, application tracking, and resume management.}
+    \resumeItem{Designed a recruiter dashboard for job posting, candidate evaluation, and progress tracking, reducing the hiring cycle by \textbf{35\%}.}
+    \resumeItem{Optimized backend APIs and MongoDB queries, reducing average response time by \textbf{15\%} and improving overall system scalability.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
     \vspace{-15pt}
     
     
@@ -220,9 +221,7 @@
         \textbf{Frameworks \& Libraries:} React.js, Node.js, Express.js \\
         \textbf{Databases:} MongoDB, PostgreSQL \\
         \textbf{Developer Tools:} Git, Docker, Kubernetes, Azure, VS Code \\
-        \textbf{Core CS Topics:} Data Structures \& Algorithms, Object-Oriented Programming, 
-        Multithreading \& Concurrency, Operating Systems, Computer Networks, Database Systems (DBMS), System Design \\
-        \textbf{Special Interests:} Performance Optimization, Distributed Systems, Parallel Computing \\
+        \textbf{Core CS Topics:} Data Structures \& Algorithms, Object-Oriented Programming, , Operating Systems, Computer Networks, Database Systems (DBMS), System Design \\
     }}
 \end{itemize}
 
@@ -235,13 +234,12 @@
     \resumeSubHeadingListStart
         \resumeItemListStart
 
-            \resumeItem{Secured a position in the Dean’s List, representing the\textbf{ top 1\%} of the college for academic excellence.}
+            \resumeItem{Secured a position in the Dean’s List, representing the\textbf{ top 10\%} of the college for academic excellence.}
             \resumeItem{Secured \textbf{7th position} in the New Year Codeathon 2025, organized by Sakshm AI and supported by Microsoft.}
             \resumeItem{Technical Head of a student coding \textbf{\href{https://linkedin.com/company/apnacollegelpu}{\textcolor{blue}{community}}}, followed by 3,000+ students.}
             \resumeItem{Ranked in the \textbf{top 0.1\% mentors} on \textbf{\href{https://topmate.io/tusharbhardwaj}{\textcolor{blue}{Topmate}}}, recognized for impactful mentorship and guidance.}
-            \resumeItem{Solved \textbf{1000+ DSA problems} and maintaining a \textbf{650+ day streak} on \textbf{\href{https://leetcode.com/u/Tusharr2004/}{\textcolor{blue}{LeetCode}}} , demonstrating consistency and coding efficiency.}
-            \resumeItem{ Div3 on \textbf{\href{https://www.codechef.com/users/tushar2004b}{\textcolor{blue}{CodeChef}}} with a \textbf{850+ days streak}.}
-            \resumeItem{Winner of Unstop Giveaway, recognized for active participation in tech competitions}
+            \resumeItem{Achieved a \textbf{LeetCode Contest Rating of 1600} with \textbf{1000+ problems solved} and a \textbf{720+ day streak}, demonstrating strong algorithmic knowledge and coding proficiency.}
+
         \resumeItemListEnd
     \resumeSubHeadingListEnd
     
