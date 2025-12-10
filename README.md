@@ -21,10 +21,22 @@ docker run --rm -i -v "$PWD":/data latex pdflatex tushar_resume.tex
 
 ![Resume_page-0001](https://github.com/user-attachments/assets/0dd2ef59-67c3-4fea-b63b-02d00383a08b)
 
+## Sponsor
 
+If you find this helpful, consider supporting me:
 
-### License
+- **Sponsor Me:** [Buy Me a Coffee!](https://github.com/sponsors/TuShArBhArDwA)
 
+## License
+- This project is licensed under the [MIT License](LICENSE).
+> All data and datasets are owned by **[Tushar Bhardwaj](https://tushar-bhardwaj.vercel.app/)**
 
-This project is licensed under the [MIT License](./LICENSE).  
-All data and datasets are owned by **Tushar Bhardwaj**.
+## Contact
+
+- **Meet T-Bot** - [Discover My Work](https://t-bot-blush.vercel.app/)
+- **Tushar Bhardwaj** - [Portfolio](https://tushar-bhardwaj.vercel.app/)
+- **Connect 1:1** - [Topmate](https://topmate.io/tusharbhardwaj)
+- **GitHub:** [TuShArBhArDwA](https://github.com/TuShArBhArDwA)
+- **LinkedIn:** [Tushar Bhardwaj](https://www.linkedin.com/in/bhardwajtushar2004/)
+- **Email:** [tusharbhardwaj2617@gmail.com](mailto:tusharbhardwaj2617@gmail.com)
+
